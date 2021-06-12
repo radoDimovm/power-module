@@ -1,0 +1,25 @@
+.power-module {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  min-height: 50%;
+  max-height: 70%;
+  background-color: #354b70;
+  padding: 50px;
+  border: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas:  "parameter-display parameter-display notifications"
+                        "parameter-display parameter-display notifications"
+                        "commanding-panel  commanding-panel  notifications";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 2em;
+  column-gap: 3em;
+}

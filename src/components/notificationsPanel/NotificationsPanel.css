@@ -1,0 +1,8 @@
+.notifications-panel {
+  grid-area: notifications;
+  border: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 1.5em;
+  background-color: #f5f7fe;
+}

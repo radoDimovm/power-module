@@ -1,0 +1,29 @@
+.notification {
+  height: 4em;
+  margin: 0 1em;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+.notification h4 {
+  margin: 0;
+}
+
+.max-voltage {
+  background-color: rgb(196, 253, 158);
+}
+
+.low-voltage {
+  background-color: rgb(255, 255, 77);
+}
+
+.high-draw {
+  background-color: rgb(252, 193, 105);
+}
+
+.super-high-draw {
+  background-color: rgb(252, 122, 99);
+}

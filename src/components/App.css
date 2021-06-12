@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ecedee48;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("http://localhost:3000/bg-image.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

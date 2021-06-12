@@ -1,0 +1,30 @@
+.commanding-panel {
+  border: 3px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 2em;
+  grid-area: commanding-panel;
+  display: grid;
+  grid-template-areas:  "title      title"
+                        "button-obc button-camera";
+  column-gap: 2em;
+  row-gap: 1.5em;
+  background-color: #f5f7fe;
+}
+
+.button-obc {
+  grid-area: button-obc;
+}
+
+.button-camera {
+  grid-area: button-camera;
+}
+
+.title {
+  grid-area: title;
+  margin: 0;
+}
+
+.button {
+  height: 5em;
+}
