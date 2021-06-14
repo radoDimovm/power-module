@@ -5,4 +5,10 @@
   border-style: solid;
   padding: 1.5em;
   background-color: #f5f7fe;
+  display: grid;
+  align-content: start;
+}
+
+.notifications-panel h1 {
+  justify-self: center;
 }

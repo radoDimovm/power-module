@@ -112,6 +112,7 @@ const NotificationsPanel = () => {
 
   return (
     <div className='notifications-panel'>
+      <h1>Notifications</h1>
       {
         Object.values(notifications)
           .filter((notification) => notification.isVisible === true)
