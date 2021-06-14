@@ -20,9 +20,12 @@ export const getObcInfo = () => {
     return {obcInfo, status: 200};
   }
 
-  obcVolts = obcVolts + Math.floor(Math.random() * 5);
+  obcVolts = obcVolts + Math.floor(Math.random() * 5 - obcAmps);
   if (obcVolts > 30) {
     obcVolts = 30;
+  }
+  if (obcVolts < 0) {
+    obcVolts = 0;
   }
   if (obcAmps > 0) {
     obcAmps = obcAmps - Math.random() * 2.5;
@@ -53,9 +56,12 @@ export const getCameraInfo = () => {
     return {cameraInfo, status: 200};
   }
 
-  cameraVolts = cameraVolts + Math.floor(Math.random() * 5);
+  cameraVolts = cameraVolts + Math.floor(Math.random() * 5 - cameraAmps);
   if (cameraVolts > 30) {
     cameraVolts = 30;
+  }
+  if (cameraVolts < 0) {
+    cameraVolts = 0;
   }
   if (cameraAmps > 0) {
     cameraAmps = cameraAmps - Math.random() * 2.5;
