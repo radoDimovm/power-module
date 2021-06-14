@@ -1,12 +1,11 @@
 .notification {
   min-height: 4em;
-  margin: 0 1em;
+  margin: 0 1em 1.5em;
   padding: 5px;
   display: grid;
   justify-items: center;
   align-items: center;
   border-radius: 5px;
-  margin-bottom: 1.5em;
 }
 
 .notification h4 {
